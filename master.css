@@ -143,6 +143,10 @@ footer {
     border-top: 1px solid #ddd!important;
     background: #f4f4f4;
     color: #505050!important;
+    position: fixed;
+    bottom: 0;
+    opacity: 1!important;
+    z-index: 9999;
 }
 
 footer>a {
@@ -311,7 +315,7 @@ li.item:hover {
     padding-left: 0!important;
     padding-right: 0!important;
     padding-top: 110px;
-    height: 100%!important;
+    min-height: 100%!important;
     position: absolute!important;
     border-right: 1px solid #ddd!important;
     width: 240px;
@@ -391,7 +395,7 @@ table {
 }
 
 .pane {
-    margin-top: 15px!important;
+    margin-top: 5px!important;
 }
 
 .subtasks,.task {
@@ -499,10 +503,13 @@ form > table tr td:first-of-type {
     float: right;
     clear: right;
 }
+#buildHistory .healthReport {
+    margin-right: 0 !important;
+}
 
 a.build-health-link {
-    padding-left: 24px;
-    margin-left: 12px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
     vertical-align: middle!important;
 }
 
@@ -817,8 +824,8 @@ h1 {
 }
 
 .icon-edit-delete {
-	padding-left: 10px !important;
-	width: 34px !important;
+	padding-left: 0 !important;
+	width: 24px !important;
 }
 
 .section-header {
